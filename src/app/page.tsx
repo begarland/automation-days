@@ -4,7 +4,7 @@ import Confetti from "react-confetti-boom";
 
 export default function Home() {
   var a = moment([2024, 5, 18]);
-  var b = moment(new Date());
+  var b = moment();
 
   const days = b.diff(a, "days");
   return (
